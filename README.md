@@ -124,3 +124,40 @@ flavor.
 [using Guava in your build]: https://github.com/google/guava/wiki/UseGuavaInYourBuild
 [repackage]: https://github.com/google/guava/wiki/UseGuavaInYourBuild#what-if-i-want-to-use-beta-apis-from-a-library-that-people-use-as-a-dependency
 
+
+1：Guava是个啥玩意？
+
+   Guava是一个工具库，由Google公司的程序员们使用Java语言开发
+
+2：Guava有啥用？
+
+   提供一个内容丰富的工具箱，供Java程序员们使用
+   
+3：Guava有啥优势？
+
+   背靠大公司，久经考验，提供的工具类丰富、简洁、实用
+
+4：Guava咋用？
+
+   引入对应的jar，不管使用什么方式，然后熟悉一下API，就能直接使用了
+
+5：Guava带给了我什么？
+
+   5-1：工具类基本都是使用了 final 关键字来修饰，表示类是不可被继承的，防止子类复写对应的方法
+   
+   5-2：工具类基本都提供了一个私有的无参构造方法，防止此类在外部被实例化
+   
+   5-3：工具类内的方法基本都是静态的方法，提供对外使用就用 public 来修饰，对内使用的就用 private 来修饰
+   
+   5-4：工具箱中的工具主要有基本数据类型相关、集合相关、并发相关、IO相关、反射相关、缓存相关、数学计算相关、网络相关、图表相关、事件直通车相关、注解相关
+   
+   5-5：Google的程序员们代码注释写的比较丰富
+   
+   5-6：每一个工具类都有对应的单元测试类，这是一种非常棒的习惯
+   
+   5-7：顺藤摸瓜，通过一个优秀的开源项目看到了一大片优秀的开源项目
+   
+   
+
+
+
